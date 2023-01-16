@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+}
+
+article>div{
+    padding-inline: 20px;
+    border: 1px solid rgb(209, 207, 207);
+}
+
+
+#image{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background-color: rgb(154, 159, 160);
+    width: 300px;
+    display: grid;
+    place-items: center;
+    color: rgb(210, 217, 218);
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
