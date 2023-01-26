@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-items: center;
+    margin: 0;
+}
+
+body>*{
+    flex: 1;
+}
+
+#yellow{
+    order: 1;
+}
+
+#red{
+    order: 2;
+}
+
+#green{
+    order: 3;
+}
+
+#orange{
+    order: 4;
+    flex: 3;
+}
+
+#blue{
+    order: 5;
+}
