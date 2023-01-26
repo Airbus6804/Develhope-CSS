@@ -1,0 +1,69 @@
+/*Una parte dell'esercizio è commentata perché 
+una parte del file question.md non mi è sembrata chiara nello 
+specifico: "Look at the video about the CSS Grid property."
+(video che non ho trovato), comunque entrambe gli
+svolgimenti portano allo stesso risultato
+*/
+
+
+/* body{
+    display: grid;
+
+    grid-template-areas:
+    "green green green"
+    "yellow red blue"
+    "orange orange blue"
+}
+
+#green{
+    grid-area: green;
+    
+}
+
+#orange{
+    grid-area: orange;
+}
+
+#red{
+    grid-area: red;
+}
+
+#yellow{
+    grid-area: yellow;
+}
+
+#blue{
+    grid-area: blue;
+}
+
+#red>ul, #yellow>ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}  */
+
+body{
+    display: grid;
+}
+
+#green{
+    grid-column: span 3;
+}
+
+#yellow{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+#orange{
+    grid-row: 3;
+    grid-column: span 2;
+}
+
+#blue{
+    grid-row: span 2;
+}
+
+#red>ul, #yellow>ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
